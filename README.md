@@ -33,3 +33,11 @@ with repositories that use Git LFS.
 - It is not initialized automatically
 - Repositories without Git LFS are unaffected
 - Repository-level Git hooks remain the source of truth
+
+### Base environment
+
+- Base OS: Debian (via `devcontainers/base`)
+- Default user: non-root (`vscode`)
+- UID/GID: 1000:1000 (Codespaces-compatible)
+- Passwordless sudo enabled
+- Works in GitHub Codespaces and local Docker
