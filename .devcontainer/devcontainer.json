@@ -1,0 +1,6 @@
+{
+  "name": "YardaLab Dev Env (base)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
+}
