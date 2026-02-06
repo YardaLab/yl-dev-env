@@ -1,5 +1,4 @@
--- Simple terminal-friendly colors
-vim.opt.termguicolors = true
+-- Terminal color capabilities only
+-- Colorscheme is managed exclusively by plugins (lazy.nvim)
 
--- fallback: default dark
-vim.cmd("colorscheme default")
+vim.opt.termguicolors = true
